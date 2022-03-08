@@ -1,0 +1,146 @@
+img.alineadoTextoImagenCentro{
+    vertical-align: middle;
+    
+  }
+  .test{
+      padding-bottom: 10px;
+  }
+  .mes_propina{
+      color:white;
+      text-decoration: none;
+  }
+  .boton_chiquito{
+    font-size: 0.8em;
+  }
+
+  .grid {
+    display: grid;
+   /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
+    /*grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-template-rows: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);*/
+    grid-template-columns: 2fr 2fr 1fr 2.5fr;
+    grid-template-rows: 100px 2fr 1fr;
+
+    grid-template-areas:
+    "head head head side"
+    "main main main side"
+    "footer footer footer side";
+
+    /*grid-gap: 5px;*/
+   /* align-items: start;*/
+}
+
+.grid>article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.head {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    grid-area: head;
+    /*height: 100px;*/
+ 
+
+  ;
+  }
+  .main {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    grid-area: main;
+   /* height: 200px;*/
+  padding: 1rem;
+
+   
+
+  }
+  .side {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    grid-area: side;
+    /*padding: 1rem;*/
+    /*height: 400px;*/
+   
+
+  }
+  .footer {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    grid-area: footer;
+   /* height: 100px;*/
+  padding: 1rem;
+   
+
+  }
+
+.grid>article img {
+    max-width: 100%;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.text>button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.table-pagamentos{
+  border: 50px;
+}
+.card-pagamentos{
+  border: 100px;
+}
+
+.fondoAmarelo{
+  background-color: goldenrod;
+}
+.fondoBlanco{
+  background-color: rgb(250, 248, 248);
+}
+
+.linhaItem:hover .item {
+ 
+  background-color: goldenrod;
+}
+.botonDeleteItem:hover {
+  background-color: red;
+ 
+}
+.botonDeleteItem:hover .BsXCircleDelete {
+  color: white;
+ 
+}
+
+.selector_turma {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+
+  grid-template-areas:
+  "curso curso curso"
+  "turma turma turma"
+  
+
+  /*grid-gap: 5px;*/
+ /* align-items: start;*/
+}
+
+.curso {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  grid-area: curso;
+  /*padding: 1rem;*/
+  /*height: 400px;*/
+}
+.turma {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  grid-area: turma;
+  /*padding: 1rem;*/
+  /*height: 400px;*/
+}
+
