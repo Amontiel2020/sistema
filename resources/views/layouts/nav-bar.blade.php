@@ -125,7 +125,7 @@
                            <a href="{{route('pagamentosResidencia')}}"><i class="fa fa-users  fa-3x"></i> Pagamentos Residências</a>
                        </li>
                        <li>
-                           <a href="{{route('moduloMatriculas')}}"><i class="fa fa-users  fa-3x"></i> Modulo Matriculas test</a>
+                           <a href="{{route('moduloMatriculas')}}"><i class="fa fa-users  fa-3x"></i> Modulo Matriculas</a>
                        </li>
                        @endif
 
